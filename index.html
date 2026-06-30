@@ -3,90 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Lauren Parrent Wilson | Screenwriter & Producer</title>
-  <meta name="description" content="Lauren Parrent Wilson is a screenwriter and producer based in Los Angeles, California. Work spans feature film, television, and entertainment development including romantic comedy and drama." />
-
-  <!-- SEO keywords (non-hidden, allowed + effective) -->
-  <meta name="keywords" content="Lauren Parrent Wilson, screenwriter, producer, feature film, screenplay, rom com, romantic comedy, film development, Los Angeles writer, entertainment industry" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Lauren Parrent Wilson" />
-  <meta property="og:description" content="Screenwriter & Producer" />
-  <meta property="og:type" content="website" />
+  <title>Lauren Parrent Wilson</title>
 
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Optional: Inter font (your CSS expects it) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- HERO -->
-  <section id="home" class="hero">
+  <!-- HERO SECTION -->
+  <div class="hero">
+
     <div class="overlay"></div>
 
-    <nav class="nav">
-      <div class="logo">L P W</div>
-      <div class="nav-links">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contact">CONTACT</a>
-      </div>
-    </nav>
+    <!-- NAV -->
+    <div class="nav">
+      <div class="logo">LPW</div>
 
-    <div class="hero-content">
-      <h1>Lauren Parrent Wilson</h1>
-      <p class="subtitle">Screenwriter • Producer</p>
-
-      <div class="socials">
-        <a href="https://www.instagram.com/laurenparrentwilson" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com/in/lauren-wilson-620a9a30/" target="_blank">LinkedIn</a>
+      <div>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
-  </section>
+
+    <!-- HERO CONTENT -->
+    <div class="hero-content">
+      <h1>Lauren Parrent Wilson</h1>
+      <p class="subtitle">Screenwriter – Producer</p>
+
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+
+  </div>
 
   <!-- ABOUT -->
-  <section id="about" class="section">
+  <div id="about" class="section">
     <h2>About</h2>
     <p>Biography coming soon.</p>
-  </section>
+  </div>
 
   <!-- PROJECTS -->
-  <section id="projects" class="section">
+  <div id="projects" class="section">
     <h2>Projects</h2>
     <p>Selected film and television projects will be announced here.</p>
-  </section>
+  </div>
 
   <!-- FEATURED -->
-  <section class="section">
+  <div class="section">
     <h2>Featured</h2>
-
-    <a class="feature-link" href="https://voyagela.com/interview/life-work-with-lauren-wilson-of-westside/" target="_blank">
-      Interview with VoyageLA →
-    </a>
-  </section>
+    <p>Interview with VoyageLA →</p>
+  </div>
 
   <!-- CONTACT -->
-  <section id="contact" class="section">
+  <div id="contact" class="section">
     <h2>Contact</h2>
 
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
-      <input type="text" name="name" placeholder="Name" required />
-      <input type="email" name="email" placeholder="Email" required />
-      <textarea name="message" placeholder="Message" required></textarea>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" />
+      <input type="email" placeholder="Email" />
+      <textarea placeholder="Message"></textarea>
       <button type="submit">Send</button>
     </form>
 
     <p class="email-note">Messages are delivered privately.</p>
-  </section>
+  </div>
 
+  <!-- FOOTER -->
   <footer>
     © 2026 Lauren Parrent Wilson
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
