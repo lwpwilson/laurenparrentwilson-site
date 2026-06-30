@@ -1,4 +1,3 @@
-/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -6,67 +5,30 @@
   font-family: "Inter", sans-serif;
 }
 
-/* BASE */
 body {
   background: #0f0f10;
   color: #f5f5f5;
-  line-height: 1.6;
 }
 
 /* HERO */
 .hero {
   height: 100vh;
   position: relative;
-  background: url("background.jpg") center/cover no-repeat;
-  display: flex;
+background: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2000&q=80") center/cover no-repeat;  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-/* DARK OVERLAY */
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(10, 10, 10, 0.55);
-  z-index: 1;
+  background: rgba(10,10,10,0.55);
 }
 
-/* NAV */
-.nav {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 40px;
-  z-index: 3;
-}
-
-.logo {
-  letter-spacing: 4px;
-  font-size: 0.9rem;
-}
-
-/* NAV LINKS */
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  margin-left: 20px;
-  font-size: 0.85rem;
-  opacity: 0.8;
-}
-
-.nav-links a:hover {
-  opacity: 1;
-}
-
-/* HERO CONTENT */
 .hero-content {
   position: relative;
   z-index: 2;
-  text-align: center;
 }
 
 .hero h1 {
@@ -81,7 +43,49 @@ body {
   opacity: 0.8;
 }
 
-/* SOCIAL LINKS */
+/* NAV */
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+  z-index: 3;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+.logo {
+  letter-spacing: 4px;
+  font-size: 0.9rem;
+}
+
+/* SOCIALS */
 .socials {
   margin-top: 20px;
 }
@@ -91,10 +95,6 @@ body {
   color: #f5f5f5;
   text-decoration: none;
   opacity: 0.8;
-}
-
-.socials a:hover {
-  opacity: 1;
 }
 
 /* SECTIONS */
@@ -109,18 +109,7 @@ body {
   font-weight: 500;
 }
 
-/* FEATURE LINK */
-.feature-link {
-  color: #f5f5f5;
-  text-decoration: underline;
-  opacity: 0.8;
-}
-
-.feature-link:hover {
-  opacity: 1;
-}
-
-/* CONTACT FORM */
+/* CONTACT */
 .contact-form {
   display: flex;
   flex-direction: column;
