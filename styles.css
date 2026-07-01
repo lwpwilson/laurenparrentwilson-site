@@ -130,7 +130,7 @@ a { color: inherit; }
 }
 h1 {
   margin: 0;
-  font-size: clamp(3.1rem, 8.2vw, 6.9rem);
+  font-size: clamp(3.1rem, 8.2vw, 6.2rem);
   line-height: .95;
   letter-spacing: -.055em;
   font-weight: 500;
